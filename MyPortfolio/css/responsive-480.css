@@ -1,0 +1,75 @@
+@media screen and (max-width: 480px) {
+  .head .header-logo {
+    font-size: 1.3rem;
+  }
+  .mainImage img {
+    height: 300px;
+  }
+  .mainName {
+    font-size: 2rem;
+    top: 80px;
+    left: 20px;
+    line-height: 150%;
+  }
+  .content-about h1 {
+    font-size: 2.5rem;
+    margin: 100px 30px 100px 30px;
+  }
+  .content-about .about {
+    width: 300px;
+  }
+  .content-about .about .myImage img {
+    width: 300px;
+    height: 300px;
+  }
+  .content-skill {
+    width: 300px;
+  }
+  .content-skill h1 {
+    font-size: 2.5rem;
+    margin: 100px 30px 100px 30px;
+  }
+  .content-service {
+    width: 300px;
+  }
+  .content-service .title {
+    font-size: 2.5rem;
+    margin: 100px 30px 100px 30px;
+  }
+  .content-works {
+    width: 300px;
+  }
+  .content-works h1 {
+    font-size: 2.5rem;
+    margin: 100px 30px 100px 30px;
+  }
+  .content-works img {
+    width: 300px;
+    height: 180px;
+  }
+  .content-contact {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .content-contact h1 {
+    font-size: 2.5rem;
+    margin: 100px 30px 100px 30px;
+  }
+  .content-contact .form {
+    width: 300px;
+    padding-top: 20px;
+  }
+  .content-contact .form dl {
+    margin-left: 20px;
+  }
+  .content-contact .form dl dd #name {
+    width: 250px;
+  }
+  .content-contact .form dl dd #mails {
+    width: 250px;
+  }
+  .content-contact .form dl dd #details {
+    width: 250px;
+  }
+}
+/*# sourceMappingURL=responsive-480.css.map */

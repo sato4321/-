@@ -1,0 +1,80 @@
+@media screen and (max-width: 1000px) {
+  .head .header-list {
+    display: none;
+  }
+  .mainName {
+    font-size: 2.5rem;
+  }
+  .mainImage img {
+    height: 500px;
+  }
+  #show {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    font-size: 2rem;
+    color: black;
+    z-index: 2;
+  }
+  #show i {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  #menu {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 180px;
+    top: 70px;
+    right: -180px;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    position: fixed;
+    opacity: 0.8;
+    z-index: 2;
+  }
+  #menu ul {
+    margin-top: 100px;
+  }
+  #menu ul li a {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 4rem;
+    text-decoration: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    color: #ffffff;
+    font-family: Cambria;
+  }
+  .content-about .about {
+    width: 600px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .content-about .about .myImage {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .content-skill {
+    width: 600px;
+  }
+  .content-service {
+    width: 600px;
+  }
+  .service-all {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .content-works {
+    width: 600px;
+  }
+}
+/*# sourceMappingURL=responsive-1000.css.map */

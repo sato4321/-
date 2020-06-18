@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel = "stylesheet" href = "css/responsive-1000.css">
+    <link rel = "stylesheet" href = "css/responsive-480.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="header-logo">Sato's Portfolio</div>
+            <div class="header-list">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                    <li><a href="#service">SERVICE</a></li>
+                    <li><a href="#works">WORKS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainImage" id="home">
+            <img src="images/IMG_4620 (1).jpg">
+        </div>
+        <div class="mainName">Welcome to<br>&emsp;My Portfolio</div>
+
+        <!-- ハンバーガーメニューここから -->
+        <div id="show">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skill">SKILL</a></li>
+                <li><a href="#service">SERVICE</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <!-- ハンバーガーメニューここまで -->
+
+    </header>
+
+    <main>
+        <div class="content-about" id="about">
+            <h1>About me</h1>
+            <div class="about">
+                <div class="myImage">
+                    <img src="images/IMG_4623.jpg">
+                </div>
+                <div class="myProfile">
+                    <h2>Profile</h2>
+                    <ul>
+                        <li>佐藤&ensp;隆史（サトウ&ensp;タカシ）</li>
+                        <li>1992年3月21日生まれ</li>
+                        <li>大分県別府市出身大分市在住</li>
+                        <li>独学でWeb制作を学ぶ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-skill" id="skill">
+            <h1>My Skill</h1>
+            <div class="skill-img">
+                <i class="fab fa-html5"><p>HTML</p></i>
+                <i class="fab fa-css3-alt"><p>CSS</p></i>
+                <i class="fab fa-sass"><p>Sass</p></i>
+                <i class="fab fa-js-square"><p>JavaScript<br>(jQuery)</p></i>
+                <i class="fab fa-bootstrap"><p>Bootstrap</p></i>
+                <i class="fab fa-github"><p>GitHub</p></i>
+            </div>
+        </div>
+        <div class="content-service" id="service">
+            
+            <div class="title">My Service</div>
+            <div class="service-all">
+                <div class="service-1">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h1>スマホ対応</h1>
+                    <h6>現在お持ちのサイトを、「スマートフォン」「タブレット」「パソコン」など、様々な端末でもストレスなく閲覧できるように、レスポンス化いたします。</h6>
+                </div>
+
+                <div class="service-2">
+                    <i class="fas fa-bezier-curve"></i>
+                    <h1>LP・HP制作</h1>
+                    <h6>お客様のご要望をヒヤリングし、ご要望に沿ったライディングページ・ホームページを作成します。</h6>
+                </div>
+
+                <div class="service-3">
+                    <i class="far fa-file-code"></i>
+                    <h1>コーディング</h1>
+                    <h6>サイトリニューアルやコンテンツの追加など、お客様よりお預かりしたデザインデータを基に、適切にコーディングいたします。</h6>
+                </div>
+
+                <div class="service-4">
+                    <i class="fas fa-laptop"></i>
+                    <h1>既存サイト改修</h1>
+                    <h6>「古く見ずらくなったサイト」を、「見やすく、使いやすいサイト」に修正いたします。もちろんレスポンシブ対応も可能です。</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-works" id="works">
+            <h1>MyWorks</h1>
+            <div class="works-title">大分ラーメン紹介サイト</div>
+            <img src="images/9.png">
+            <p>GitHubアカウントは<a href="https://github.com/">こちらから</a></p>
+            <p>アカウント: sato4321</p>
+        </div>
+        <div class="content-contact" id="contact">
+            <h1>Contact</h1>
+            <div class="form">
+                <h2>お問い合わせ</h2>
+                <dl>
+                    <dt>
+                        <p>お名前<span>*</span></p>
+                    </dt>
+                    <dd>
+                        <input type="text" id="name" placeholder="example:Name" required>
+                    </dd>
+                    <dt>
+                        メールアドレス<span>*</span>
+                    </dt>
+                    <dd>
+                        <input type="text" id="mails" placeholder="example@mail.com" required>
+                    </dd>
+                    <dt>
+                        <p>お問い合わせ内容<span>*</span></p>
+                    </dt>
+                    <dd>
+                        <textarea type="text" id="details" value="details" placeholder="お気軽にお問い合わせください"  required></textarea>
+                    </dd>
+                    <button type="submit" value="送信" class="btn">送信する</button>
+                </dl>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="icon">
+            <a href="https://ja-jp.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/explore"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        </div>
+        <small>©Sato's Portfolio. 2020 All Rights Reserved.</small>
+    </footer>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src = "js/scrollreveal.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+@media screen and (max-width:1000px){
+    .head{
+        .header-list{
+            display: none;
+        }
+        
+    }
+    .mainName{
+        font-size: 2.5rem;
+    }
+    .mainImage{
+        img{
+            height:500px;
+        }
+    }
+    
+    // ハンバーガーメニューここから
+    #show{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right:60px;
+        font-size: 2rem;
+        color: black;
+        z-index: 2;
+         i{
+           position: fixed;
+           margin: 0;
+           padding: 0;
+          }
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        height:100%;
+        width:180px;
+        top: 70px;
+        right:-180px;
+        background-color: rgb(27, 27, 27);
+        color: #ffffff;
+        position: fixed;
+        opacity: 0.8;
+        z-index: 2;
+        ul{
+            margin-top: 100px;
+            li{
+                a{
+                    display: block;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    text-align: center;
+                    line-height: 4rem;
+                    text-decoration: none;
+                    user-select: none;
+                    color: #ffffff;
+                    font-family: Cambria;
+                }
+            }
+        }
+    }
+    // ハンバーガーメニューここまで
+    .content-about{
+        .about{
+            width:600px;
+            display: grid;
+            grid-template-columns: 1fr;
+            .myImage{
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+    }
+    .content-skill{
+        width:600px;
+    }
+    .content-service{
+        width:600px;
+    }
+    .service-all{
+        grid-template-columns: 1fr;
+    }
+    .content-works{
+        width:600px;
+    }
+}
